@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html leng="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNAKE</title>
+    <script src="snake.js"></script>
+    <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+<div class="info">
+    <h1>SNAKE</h1>
+    <h3>Instrukcja gry:</h3>
+    <p>Sterowanie:
+        <br>&#8593 - Ruch w górę
+        <br>&#8595 - Ruch w dół
+        <br>&#8594 - Ruch w prawo
+        <br>&#8592 - Ruch w lewo
+        <br>
+        <br>Zbierz jak najwięcej czerwonych jabłek.
+        <br>Masz na to tylko 1 minutę!
+    <br>Liczba twoich punktów znajduje się <br> w lewym górnym rogu.
+    <br>Zdobącz jak najlepszy wynik.</p>
+    <h4>Powodzenia!</h4>
+
+    <br><button onclick="start()" id="start">START</button>
+</div>
+<div class="game">
+    <div id="gameover"> KONIEC GRY</div>
+    <canvas id="snake-canvas" width="600" height="600" ></canvas>
+</div>
+<div class="timer">
+    <h4>Pozostały czas:</h4>
+    <span id="time">00:00</span>
+    <br><br><h4>Najlepszy <br>wynik:</h4>
+    <br><span id="show_points">0</span>
+</div>
+</body>
+</html>
