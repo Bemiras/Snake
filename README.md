@@ -1,4 +1,4 @@
-#SNAKE
+# SNAKE
 
 Gra dostępna pod adresem: https://bemiras.github.io/Snake/
 
